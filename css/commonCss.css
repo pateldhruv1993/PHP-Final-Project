@@ -1,0 +1,141 @@
+body 
+{
+    background-image:url('http://img839.imageshack.us/img839/7629/backgroundhdb.jpg');
+    background-attachment: fixed;
+    width: 99%;
+    height: 99%;
+}
+
+img
+{
+	border:0px;
+}
+
+.header{
+    height:60px;
+    background-color: #eeeeee;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#logo{
+    font-size: 35px;
+    float: left;
+    color: #524f4f;
+    position:absolute;
+    top: 9px;
+    left: 19px;
+    display: inline;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.pages{
+    float: right;
+    position: relative;
+    top: 13px;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-left: 2px solid;
+    border-color: #000000;
+    color: #524f4f;
+    text-decoration: none;
+}
+
+.pages:hover{
+    color: #000000;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.contentWrap{
+    float: left;
+    border: 2px solid;
+    border-color: #524f4f;
+    border-radius: 19px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 872px;
+    background-color:rgba(181,181,181,0.5);
+}
+
+.contentWrap2{
+    float: left;
+    border: 2px solid;
+    border-radius:19px;
+    border-color: #fff;
+    padding-left: 60px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    width: 1137px;
+    background-color:rgba(181,181,181,0.5);
+}
+
+.contentOut{
+    width: 200px;
+    height:250px;
+    border:2px solid;
+    border-color: #cccccc;
+    float: left;
+    margin-left:14px;
+    margin-top:14px;
+}
+
+.pageCont
+{
+    padding: 14px;
+}
+
+.contentImg{
+    width:200px;
+}
+
+.contentDat{
+    background-color: #eeeeee;
+    border-top: 2px solid;
+    border-top-color:#cccccc;
+    height: 48px;
+}
+
+.prodName{
+    margin:3px;
+    font-size: 20px;
+}
+
+.prodPrice{
+    margin-left: 3px;
+    position: relative;
+    bottom: -3px;
+    margin-top: 3px;
+    font-size: 18px;
+    color: #ff0033;
+}
+
+.buy{
+    float: right;
+    position:relative;
+    right:9px;
+    bottom:10px;
+}
+
+.detailsImg{
+    float:left;
+    width:285px;
+    height:285px;
+    border-radius:19px;
+}
+
+#bodyOfPage
+{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 8px;
+}
